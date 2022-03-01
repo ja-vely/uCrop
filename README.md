@@ -1,8 +1,8 @@
 # uCrop - Image Cropping Library for Android
 
-#### This project aims to provide an ultimate and flexible image cropping experience. Made in [Yalantis](https://yalantis.com/?utm_source=github)
+#### This project aims to provide an ultimate and flexible image cropping experience. Made in [javely](https://javely.com/?utm_source=github)
 
-#### [How We Created uCrop](https://yalantis.com/blog/how-we-created-ucrop-our-own-image-cropping-library-for-android/)
+#### [How We Created uCrop](https://javely.com/blog/how-we-created-ucrop-our-own-image-cropping-library-for-android/)
 #### Check this [project on Dribbble](https://dribbble.com/shots/2484752-uCrop-Image-Cropping-Library)
 
 <img src="preview.gif" width="800" height="600">
@@ -11,7 +11,7 @@
 
 *For a working implementation, please have a look at the Sample Project - sample*
 
-<a href="https://play.google.com/store/apps/details?id=com.yalantis.ucrop.sample&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="185" height="70"/></a>
+<a href="https://play.google.com/store/apps/details?id=com.javely.ucrop.sample&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="185" height="70"/></a>
 
 1. Include the library as a local library project.
 
@@ -24,15 +24,15 @@
 	}
 	```
 
-    ``` implementation 'com.github.yalantis:ucrop:2.2.6' ``` - lightweight general solution
+    ``` implementation 'com.github.javely:ucrop:2.2.6' ``` - lightweight general solution
 
-    ``` implementation 'com.github.yalantis:ucrop:2.2.6-native' ``` - get power of the native code to preserve image quality (+ about 1.5 MB to an apk size)
+    ``` implementation 'com.github.javely:ucrop:2.2.6-native' ``` - get power of the native code to preserve image quality (+ about 1.5 MB to an apk size)
 
 2. Add UCropActivity into your AndroidManifest.xml
 
     ```
     <activity
-        android:name="com.yalantis.ucrop.UCropActivity"
+        android:name="com.javely.ucrop.UCropActivity"
         android:screenOrientation="portrait"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     ```
@@ -62,9 +62,9 @@
 5. You may want to add this to your PROGUARD config:
 
     ```
-    -dontwarn com.yalantis.ucrop**
-    -keep class com.yalantis.ucrop** { *; }
-    -keep interface com.yalantis.ucrop** { *; }
+    -dontwarn com.javely.ucrop**
+    -keep class com.javely.ucrop** { *; }
+    -keep interface com.javely.ucrop** { *; }
     ```
 
 # Customization
@@ -98,16 +98,16 @@ Currently, you can change:
 *   Merged pending pull requests with improvements and bugfixes
 *   Update compileSdk and targetSdk versions up to 31
 *   Add localizations
-*   Fixed [#609](https://github.com/Yalantis/uCrop/issues/609)
-*   Fixed [#794](https://github.com/Yalantis/uCrop/issues/794)
+*   Fixed [#609](https://github.com/javely/uCrop/issues/609)
+*   Fixed [#794](https://github.com/javely/uCrop/issues/794)
 
 
 ### Version: 2.2.5
 
-*   Fixed [#584](https://github.com/Yalantis/uCrop/issues/584)
-*   Fixed [#598](https://github.com/Yalantis/uCrop/issues/598)
-*   Fixed [#543](https://github.com/Yalantis/uCrop/issues/543)
-*   Fixed [#602](https://github.com/Yalantis/uCrop/issues/602)
+*   Fixed [#584](https://github.com/javely/uCrop/issues/584)
+*   Fixed [#598](https://github.com/javely/uCrop/issues/598)
+*   Fixed [#543](https://github.com/javely/uCrop/issues/543)
+*   Fixed [#602](https://github.com/javely/uCrop/issues/602)
 *   And other improvements
 
 
@@ -115,11 +115,11 @@ Currently, you can change:
 
   * **AndroidX migration**
   * Redesign
-  * Several fixes including [#550](https://github.com/Yalantis/uCrop/issues/550)
+  * Several fixes including [#550](https://github.com/javely/uCrop/issues/550)
 
 ### Version: 2.2.3
 
-  * Several fixes including [#445](https://github.com/Yalantis/uCrop/issues/445), [#465](https://github.com/Yalantis/uCrop/issues/465) and more!
+  * Several fixes including [#445](https://github.com/javely/uCrop/issues/445), [#465](https://github.com/javely/uCrop/issues/465) and more!
   * Material design support
   * uCrop fragment as child fragment
   * Added the Italian language
@@ -131,19 +131,19 @@ Currently, you can change:
 
 ### Version: 2.2.1
 
-  * Fix including [#285](https://github.com/Yalantis/uCrop/issues/285)
+  * Fix including [#285](https://github.com/javely/uCrop/issues/285)
 
 ### Version: 2.2
 
-  * Several fixes including [#121](https://github.com/Yalantis/uCrop/issues/121), [#173](https://github.com/Yalantis/uCrop/issues/173), [#184](https://github.com/Yalantis/uCrop/issues/184) and more!
-  * New APIs introduced [#149](https://github.com/Yalantis/uCrop/issues/149), [#186](https://github.com/Yalantis/uCrop/issues/186) and [#156](https://github.com/Yalantis/uCrop/issues/156)
+  * Several fixes including [#121](https://github.com/javely/uCrop/issues/121), [#173](https://github.com/javely/uCrop/issues/173), [#184](https://github.com/javely/uCrop/issues/184) and more!
+  * New APIs introduced [#149](https://github.com/javely/uCrop/issues/149), [#186](https://github.com/javely/uCrop/issues/186) and [#156](https://github.com/javely/uCrop/issues/156)
 
 ### Version: 2.1
 
-  * Fixes issue with EXIF data (images taken on front camera with Samsung devices mostly) [#130](https://github.com/Yalantis/uCrop/issues/130) [#111](https://github.com/Yalantis/uCrop/issues/111)
-  * Added API to set custom set of aspect ratio options for the user. [#131](https://github.com/Yalantis/uCrop/issues/131)
-  * Added API to set all configs via UCrop.Options class. [#126](https://github.com/Yalantis/uCrop/issues/126)
-  * Added ABI x86_64 support. [#105](https://github.com/Yalantis/uCrop/issues/105)
+  * Fixes issue with EXIF data (images taken on front camera with Samsung devices mostly) [#130](https://github.com/javely/uCrop/issues/130) [#111](https://github.com/javely/uCrop/issues/111)
+  * Added API to set custom set of aspect ratio options for the user. [#131](https://github.com/javely/uCrop/issues/131)
+  * Added API to set all configs via UCrop.Options class. [#126](https://github.com/javely/uCrop/issues/126)
+  * Added ABI x86_64 support. [#105](https://github.com/javely/uCrop/issues/105)
 
 ### Version: 2.0
 
@@ -153,8 +153,8 @@ Currently, you can change:
 
 ### Version: 1.5
 
-  * Introduced "Freestyle" crop (you can resize crop rectangle by dragging it corners) [#32](https://github.com/Yalantis/uCrop/issues/32)
-  * Now image & crop view paddings are not associated [#68](https://github.com/Yalantis/uCrop/issues/68)
+  * Introduced "Freestyle" crop (you can resize crop rectangle by dragging it corners) [#32](https://github.com/javely/uCrop/issues/32)
+  * Now image & crop view paddings are not associated [#68](https://github.com/javely/uCrop/issues/68)
   * Updated API
 
 ### Version: 1.4
@@ -189,7 +189,7 @@ Currently, you can change:
 
 ### Let us know!
 
-We’d be really happy if you sent us links to your projects where you use our component. Just send an email to github@yalantis.com And do let us know if you have any questions or suggestion regarding the library.
+We’d be really happy if you sent us links to your projects where you use our component. Just send an email to github@javely.com And do let us know if you have any questions or suggestion regarding the library.
 
 #### Apps using uCrop
 
@@ -200,7 +200,7 @@ We’d be really happy if you sent us links to your projects where you use our c
 
 ## License
 
-    Copyright 2017, Yalantis
+    Copyright 2017, javely
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

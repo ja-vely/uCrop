@@ -4,7 +4,7 @@ android {
     compileSdkVersion 31
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId "com.yalantis.ucrop.sample"
+        applicationId "com.javely.ucrop.sample"
         minSdkVersion 14
         targetSdkVersion 31
         versionCode 13
